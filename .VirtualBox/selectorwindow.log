@@ -1,0 +1,16 @@
+00:00:01.207577 VirtualBox GUI VM Selector Window 6.1.30 r148432 win.amd64 (Nov 22 2021 15:15:30) release log
+00:00:01.207581 Log opened 2022-04-19T18:19:57.079031500Z
+00:00:01.207582 Build Type: release
+00:00:01.207589 OS Product: Windows 10
+00:00:01.207591 OS Release: 10.0.19043
+00:00:01.207592 OS Service Pack: 
+00:00:01.233371 DMI Product Name: VivoBook_ASUSLaptop X412DA_X412DA
+00:00:01.239569 DMI Product Version: 1.0       
+00:00:01.239607 Firmware type: UEFI
+00:00:01.240191 Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:01.240221 Host RAM: 10187MB (9.9GB) total, 4367MB (4.2GB) available
+00:00:01.240228 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:01.240229 Process ID: 20624
+00:00:01.240229 Package type: WINDOWS_64BITS_GENERIC
+00:00:01.240616 Qt version: 5.6.2
+00:00:01.502525 refreshCertificates/#3: Found 1/121 SSL certs we/you trust (previously 1/115).

@@ -1,0 +1,108 @@
+00:00:00.011365 main     VirtualBox COM Server 6.1.30 r148432 win.amd64 (Nov 22 2021 15:15:30) release log
+00:00:00.011373 main     Log opened 2022-04-19T18:19:56.328760100Z
+00:00:00.011374 main     Build Type: release
+00:00:00.011391 main     OS Product: Windows 10
+00:00:00.011392 main     OS Release: 10.0.19043
+00:00:00.011393 main     OS Service Pack: 
+00:00:00.053344 main     DMI Product Name: VivoBook_ASUSLaptop X412DA_X412DA
+00:00:00.077778 main     DMI Product Version: 1.0       
+00:00:00.077802 main     Firmware type: UEFI
+00:00:00.078458 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.079918 main     Host RAM: 10187MB (9.9GB) total, 4379MB (4.2GB) available
+00:00:00.079930 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.079931 main     Process ID: 19916
+00:00:00.079932 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.248482          VirtualBox: object creation starts
+00:00:00.250441          Home directory: 'C:\Users\pc\.VirtualBox'
+00:00:00.251060          Installed Drivers:
+00:00:00.256240            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 6.1.30.48432)
+00:00:00.258122            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 6.1.30.48432)
+00:00:00.259365            C:\WINDOWS\system32\DRIVERS\VBoxDrv.sys (Version: 6.1.30.48432)
+00:00:00.284628          Loading settings file "C:\Users\pc\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.294806          usbLibGetDevices: Starting USB device enumeration
+00:00:00.295156          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&8beff0b&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:00:00.296133          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_058F&PID_6254#6&3a5bf6b8&0&2#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 1
+00:00:00.296259          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_058F&PID_6254#6&3a5bf6b8&0&2#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 2
+00:00:00.301880          usbLibGetDevices: Found 3 USB devices, 0 captured
+00:00:00.304268          USB: Unknown USB device detected (idVendor: 0x04f3, idProduct: 0x0903)
+00:00:00.305886          USB: Unknown USB device detected (idVendor: 0x13d3, idProduct: 0x56d3)
+00:00:00.306340          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0a2b)
+00:00:00.521554          HostDnsMonitor: initializing
+00:00:00.536069          HostDnsMonitor: updating information
+00:00:00.536694          HostDnsMonitor: old information
+00:00:00.536696            no server entries
+00:00:00.536698            no domain set
+00:00:00.536698            no search string entries
+00:00:00.536699          HostDnsMonitor: new information
+00:00:00.536700            server 1: 190.157.8.108
+00:00:00.536701            server 2: 190.157.8.101
+00:00:00.536702            no domain set
+00:00:00.536702            no search string entries
+00:00:00.632495          VD: VDInit finished with VINF_SUCCESS
+00:00:00.654717          Loading settings file "C:\Users\pc\VirtualBox VMs\Elastix\Elastix.vbox" with version "1.16-windows"
+00:00:00.672327          Loading settings file "C:\Users\pc\VirtualBox VMs\Elastix B\Elastix B.vbox" with version "1.15-windows"
+00:00:00.674111          VirtualBox: object created
+00:00:00.861973          Launched VM: 64586512 pid: 12516 (0x30e4) frontend: GUI/Qt name: Elastix
+00:00:03.865607          Saving settings file "C:\Users\pc\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:03.887604          Saving settings file "C:\Users\pc\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:06.847109          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:19.732986 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:00:19.733439 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&8beff0b&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:00:19.734516 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_058F&PID_6254#6&3a5bf6b8&0&2#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 1
+00:00:19.734800 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_058F&PID_6254#6&3a5bf6b8&0&2#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 2
+00:00:19.735648 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:00:20.443107 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:00:20.443731 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&8beff0b&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:00:20.445048 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_058F&PID_6254#6&3a5bf6b8&0&2#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 1
+00:00:20.445610 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_058F&PID_6254#6&3a5bf6b8&0&2#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 2
+00:00:20.446218 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:00:21.602387 dns-monitor HostDnsMonitor: updating information
+00:00:21.602439 dns-monitor HostDnsMonitor: unchanged
+00:00:22.514120 SVCHelper Saving settings file "C:\Users\pc\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:22.526563 SVCHelper Saving settings file "C:\Users\pc\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:22.538162 SVCHelper Saving settings file "C:\Users\pc\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:22.550350 SVCHelper Saving settings file "C:\Users\pc\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:22.561111 SVCHelper Saving settings file "C:\Users\pc\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:25.207723          Saving settings file "C:\Users\pc\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:25.219046          Saving settings file "C:\Users\pc\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:25.227268          Saving settings file "C:\Users\pc\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:25.235850          Saving settings file "C:\Users\pc\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:25.244927          Saving settings file "C:\Users\pc\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:25.252132          Saving settings file "C:\Users\pc\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:27.073816 dns-monitor HostDnsMonitor: updating information
+00:00:27.073850 dns-monitor HostDnsMonitor: unchanged
+00:00:28.737673          Saving settings file "C:\Users\pc\VirtualBox VMs\Elastix\Elastix.vbox" with version "1.16-windows"
+00:14:04.927589 dns-monitor HostDnsMonitor: updating information
+00:14:04.927654 dns-monitor HostDnsMonitor: unchanged
+00:29:05.007305 dns-monitor HostDnsMonitor: updating information
+00:29:05.007521 dns-monitor HostDnsMonitor: unchanged
+00:29:13.091060 dns-monitor HostDnsMonitor: updating information
+00:29:13.091129 dns-monitor HostDnsMonitor: unchanged
+00:41:49.447929 MainPower Host suspending: Paused 1 VMs
+01:34:20.210586 MainPower Host resumed: Resumed 1 VMs
+01:34:22.283880 dns-monitor HostDnsMonitor: updating information
+01:34:22.283946 dns-monitor HostDnsMonitor: unchanged
+01:34:25.002184 dns-monitor HostDnsMonitor: updating information
+01:34:25.002282 dns-monitor HostDnsMonitor: unchanged
+01:49:23.676737 dns-monitor HostDnsMonitor: updating information
+01:49:23.676962 dns-monitor HostDnsMonitor: unchanged
+01:49:26.288963 MainPower Host suspending: Paused 1 VMs
+04:49:32.297620 dns-monitor HostDnsMonitor: updating information
+04:49:32.297647 dns-monitor HostDnsMonitor: unchanged
+05:34:15.007810 MainPower Host resumed: Resumed 1 VMs
+05:34:21.805265 dns-monitor HostDnsMonitor: updating information
+05:34:21.805317 dns-monitor HostDnsMonitor: unchanged
+05:34:24.338827 dns-monitor HostDnsMonitor: updating information
+05:34:24.338880 dns-monitor HostDnsMonitor: unchanged
+05:34:29.668742 dns-monitor HostDnsMonitor: updating information
+05:34:29.668820 dns-monitor HostDnsMonitor: unchanged
+05:35:26.710309          Saving settings file "C:\Users\pc\VirtualBox VMs\Elastix\Elastix.vbox" with version "1.16-windows"
+05:35:26.773343          Saving settings file "C:\Users\pc\VirtualBox VMs\Elastix\Elastix.vbox" with version "1.16-windows"
+05:35:27.517240          Saving settings file "C:\Users\pc\VirtualBox VMs\Elastix\Elastix.vbox" with version "1.16-windows"
+05:35:33.567070 main     VirtualBox: object deletion starts
+05:35:33.568210 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\pc\VirtualBox VMs\Elastix\Elastix.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+05:35:33.570086 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\pc\VirtualBox VMs\Elastix B\Elastix B.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+05:35:33.573820 main     HostDnsMonitor: shutting down ...
+05:35:33.573917 main     HostDnsMonitor: shut down
+05:35:33.581695 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+05:35:33.583462 main     VirtualBox: object deleted

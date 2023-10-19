@@ -1,0 +1,109 @@
+{
+	"name": "logical-properties",
+	"version": "0.1.11",
+	"description": "Identify and replace CSS 💪 physical properties with 🧠 logical properties.",
+	"keywords": [
+		"css",
+		"logical",
+		"properties",
+		"physical",
+		"replace",
+		"identify",
+		"debuggers",
+		"formatters",
+		"linters",
+		"programming languages",
+		"languages"
+	],
+	"homepage": "https://github.com/coderfin/logical-properties",
+	"license": "MIT",
+	"author": {
+		"name": "coderfin",
+		"url": "https://github.com/coderfin",
+		"email": "coderfin@gmail.com"
+	},
+	"publisher": "coderfin",
+	"main": "./extension.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/coderfin/logical-properties.git"
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "yarn run lint",
+		"test": "node ./test/runTest.js",
+		"publish": "vsce publish",
+		"login": "vsce login"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.4",
+		"@types/mocha": "^9.0.0",
+		"@types/node": "14.x",
+		"@types/vscode": "^1.63.0",
+		"@vscode/test-electron": "^1.6.2",
+		"eslint": "^8.1.0",
+		"glob": "^7.1.7",
+		"jshint": "^2.13.3",
+		"mocha": "^9.1.3",
+		"typescript": "^4.4.4"
+	},
+	"dependencies": {
+		"regexp-match-indices": "^1.0.2"
+	},
+	"engines": {
+		"vscode": "^1.63.0"
+	},
+	"private": true,
+	"displayName": "🧠 Logical Properties",
+	"activationEvents": [
+		"onStartupFinished"
+	],
+	"categories": [
+		"Debuggers",
+		"Formatters",
+		"Linters",
+		"Programming Languages",
+		"Other"
+	],
+	"contributes": {
+		"commands": [
+			{
+				"command": "logical-properties.replacePhysicalWithLogicalReplaceAll",
+				"title": "Replace all 💪 physical properties with 🧠 logical properties."
+			}
+		],
+		"keybindings": [
+			{
+				"command": "logical-properties.replacePhysicalWithLogicalReplaceAll",
+				"key": "ctrl+shift+l",
+				"mac": "cmd+shift+l",
+				"when": "editorFocus"
+			}
+		],
+		"menus": {
+			"editor/context": [
+				{
+					"when": "editorFocus",
+					"command": "logical-properties.replacePhysicalWithLogicalReplaceAll",
+					"group": "logicalProperties@1"
+				}
+			]
+		}
+	},
+	"galleryBanner": {
+		"color": "#FFEB85",
+		"theme": "light"
+	},
+	"preview": true,
+	"icon": "images/icon.png",
+	"__metadata": {
+		"id": "64fabd7c-801a-478f-9f3c-d55efd1b3613",
+		"publisherId": "41ee8e57-3fc1-4c04-b65f-2f4d7dd20bdb",
+		"publisherDisplayName": "coderfin",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1652710850718
+	}
+}
